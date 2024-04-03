@@ -1,0 +1,53 @@
+<section class="container block ">
+  <div class="accordion-wrapper">
+    <div class="accordion__intro">
+      <h2 class="accordion__heading">رزومه و سوابق</h2>
+      <span>
+        <span>ویرایش</span>
+        <i class="far fa-edit"></i>
+      </span>
+    </div>
+    <div class="accordion">
+      <header class="accordion__header">
+        <h2 class="accordion__heading">سابقه تحصیلی</h2>
+        <i class="fas fa-chevron-circle-up"></i>
+      </header>
+      <div class="accordion__content">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt delectus, molestiae error itaque veniam
+          nam
+          sit voluptatibus unde eveniet soluta explicabo ab facere repellat repellendus, accusamus distinctio modi
+          dignissimos ullam?
+        </p>
+      </div>
+    </div>
+    <div class="accordion">
+      <header class="accordion__header">
+        <h2 class="accordion__heading">سابقه تحصیلی</h2>
+        <i class="fas fa-chevron-circle-up"></i>
+      </header>
+      <div class="accordion__content">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt delectus, molestiae error itaque veniam
+          nam
+          sit voluptatibus unde eveniet soluta explicabo ab facere repellat repellendus, accusamus distinctio modi
+          dignissimos ullam?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam officia quasi ad exercitationem alias eos culpa quod debitis nesciunt itaque! Sequi ducimus atque aspernatur fuga dolore, ratione repellat est corporis!
+          Hic placeat, nesciunt deleniti aperiam labore sed at eaque perspiciatis ratione sapiente necessitatibus ea! Officia rem, nobis non architecto sapiente, vero optio reprehenderit obcaecati eum nam saepe temporibus, sit blanditiis.
+          Unde similique repellendus porro animi adipisci fugiat necessitatibus? Eum autem temporibus, voluptatem deserunt sit ad itaque adipisci, beatae, officia impedit commodi quibusdam laboriosam dolorum illum. Culpa necessitatibus veritatis officia itaque!
+          Similique, veritatis blanditiis. Dignissimos quos laudantium quam quasi officia, eligendi in sunt voluptatum nostrum, dolores rerum? Odio animi beatae dolor pariatur reiciendis obcaecati, unde illum quis? Inventore delectus voluptatibus aperiam?
+          Eveniet placeat earum veniam repudiandae vero quisquam voluptatum illo cum, eaque fuga, quasi numquam vitae, maiores necessitatibus et laborum explicabo provident eos obcaecati quis voluptas blanditiis. Exercitationem nemo alias natus.
+        </p>
+      </div>
+    </div>
+  </div>
+
+</section>
+<script>
+  const accordionHeader = document.querySelectorAll(".accordion__header");
+  const accordion = document.querySelector(".accordion");
+  accordionHeader.forEach((item)=>{
+    item.addEventListener("click", (e) => {
+    e.target.parentElement.classList.toggle("accordion__expanded");
+  });
+  })
+  
+</script>
